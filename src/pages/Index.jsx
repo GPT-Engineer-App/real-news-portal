@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Box, Heading, Text, Image, Stack, Container, Spinner, Link } from "@chakra-ui/react";
 
-const API_KEY = "YOUR_NEWS_API_KEY";
+const API_KEY = "0f69f063fefb47d78851b3ed6ad04a06";
 const API_URL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
 
 const Index = () => {
